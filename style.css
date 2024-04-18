@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hedvig+Letters+Sans&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Varela Round", sans-serif;
+	color: #3e3232;
+}
+
+body {
+	background-color: #ff204e;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	flex-direction: column;
+	width: 80vw;
+	height: auto;
+	margin: auto;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin: 50px;
+}
+
+.input input {
+	padding: 20px;
+	width: 15vw;
+	width: 50vw;
+	border-radius: 9px;
+	outline: none;
+	border: none;
+}
+
+button {
+	padding: 17px;
+	border-radius: 9px;
+	outline: none;
+	border: none;
+	width: 10vw;
+	background-color: #a0153e;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.display {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	position: relative;
+	top: 50px;
+	gap: 40px;
+	width: 60vw;
+	margin: 50px;
+	background-color: #ff204e;
+	height: 25vh;
+	border-radius: 16px;
+	text-align: center;
+}
+
+.info {
+	width: 60%;
+	text-align: start;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	gap: 20px;
+	color: white;
+}
+
+.thumbnail img {
+	width: 300px;
+	height: auto;
+	background-size: contain;
+	border-radius: 10px;
+}
+
+.downloadLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	position: relative;
+	top: 100px;
+	gap: 10px;
+}
+
+.downloadLink > div {
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 12px;
+	width: 250px;
+	border-radius: 12px;
+	background-color: #00224d;
+	border: none;
+	overflow: none;
+}
+
+.downloadLink > div a {
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}

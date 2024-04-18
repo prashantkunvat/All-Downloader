@@ -1,0 +1,91 @@
+@media (max-width: 767px) {
+	/* CSS rules for phones */
+	/* For example, adjust font size, margins, etc. */
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		position: relative;
+		top: 100px;
+		flex-direction: column;
+		width: 80vw;
+		height: auto;
+		margin: auto;
+	}
+
+	.search {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		flex-direction: column;
+		position: relative;
+		bottom: 40px;
+	}
+
+	.input input {
+		padding: 20px;
+		width: 85vw;
+		border-radius: 9px;
+		outline: none;
+		border: none;
+	}
+
+	button {
+		width: 36vw;
+	}
+
+	.display {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		position: relative;
+		gap: 40px;
+		width: 60vw;
+		background-color: #ff204e;
+		height: 25vh;
+		border-radius: 16px;
+		text-align: center;
+		flex-direction: column;
+	}
+
+	.thumbnail {
+		position: relative;
+		bottom: 130px;
+	}
+
+	.thumbnail img {
+		height: auto;
+		background-size: contain;
+		border-radius: 10px;
+	}
+
+	.info {
+		width: 95vw;
+		text-align: start;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		flex-direction: column;
+		gap: 20px;
+		color: white;
+		min-height: -11vh;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.downloadLink {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		/* flex-direction: column; */
+		position: relative;
+		top: 37px;
+		gap: 10px;
+		flex-direction: column;
+		height: 41vh;
+	}
+}
